@@ -32,7 +32,7 @@ public class LaunchingBrowser {
 		File source= sc.getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(source, new File("./Screenshots/urbanladder.png"));
 		
-		Thread.sleep(3000);
+		
 		driver.close();
 
 	}
