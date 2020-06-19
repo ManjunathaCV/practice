@@ -33,6 +33,7 @@ public class LaunchingBrowser {
 		FileUtils.copyFile(source, new File("./Screenshots/urbanladder.png"));
 		
 		// comment added from desktop to verify the sync in laptop
+		//comment added to verify the sync with laptop
 		driver.close();
 
 	}
