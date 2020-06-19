@@ -32,7 +32,7 @@ public class LaunchingBrowser {
 		File source= sc.getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(source, new File("./Screenshots/urbanladder.png"));
 		
-		
+		// comment added from desktop to verify the sync in laptop
 		driver.close();
 
 	}
